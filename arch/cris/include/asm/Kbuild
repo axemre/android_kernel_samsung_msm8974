@@ -1,0 +1,7 @@
+include include/asm-generic/Kbuild.asm
+
+header-y += ethernet.h
+header-y += etraxgpio.h
+header-y += rs485.h
+header-y += rtc.h
+header-y += sync_serial.h
